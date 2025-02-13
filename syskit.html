@@ -10,7 +10,7 @@
         <!-- Favicon -->
         <meta name="description" content="IswipeTech is an IT consulting company that offers ERP & CRM services, web & mobile development, AI, ML and Data analytics services, Business intelligence and marketing automation.">
     <meta name="keywords" content="ERP, CRM, AI, ML, IT Consulting, Web and Mobile app, BI and Marketing automation">
-    <title>IswipeTech | IT Consulting, ERP & CRM Services | Web & Mobile Development</title>
+    <title>IswipeTech | Innovating Software, Elevating Brands | Web & Mobile Development</title>
     
     <link rel="apple-touch-icon" sizes="57x57" href="assets/images/logo/apple-icon-57x57.webp">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/images/logo/apple-icon-60x60.webp">
@@ -51,7 +51,7 @@
     <script src="../ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
-<input type="hidden" name="baseURL" id="baseURL" value="https://iswipetech.com/" /><body>
+<input type="hidden" name="baseURL" id="baseURL" value="https://techwize.com/" /><body>
 <header class="header-area">
   <!-- Header Nav Menu Start -->
   <div class="header-menu-area sticky-header">
@@ -140,7 +140,7 @@
             </nav>
           </div>
           <!-- Header Button Start !-->
-          <div class="header-btn"> <a href="contact-us.html" class="header-single-btn active" title="Contact Us"> Contact Us<!-- <img src="https://iswipetech.com/assets/images/svg-icons/arrow-right.svg" alt="Right Arrow" width="15" height="18" class="svgimg svgwhite"> --> </a> </div>
+          <div class="header-btn"> <a href="contact-us.html" class="header-single-btn active" title="Contact Us"> Contact Us<!-- <img src="https://techwize.com/assets/images/svg-icons/arrow-right.svg" alt="Right Arrow" width="15" height="18" class="svgimg svgwhite"> --> </a> </div>
           <!-- Header Button Start !-->
           <!-- Mobile Menu Toggle Button Start !-->
           <div class="mobile-menu-bar d-lg-none text-end">
@@ -383,7 +383,7 @@
                 <div class="comment-respond">
               <span id="alertMessage"></span>
               <span id="alertMessageSuccess"></span>
-            <form method="POST" id="contactUs" class="comment-form" action="https://iswipetech.com/contact_us_submit">
+            <form method="POST" id="contactUs" class="comment-form" action="https://techwize.com/contact_us_submit">
                 <input type="hidden" name="captcha" id="captcha">
               <div class="row g-6 ">
                 <div class="col-md-6">
@@ -656,8 +656,8 @@
 
 <footer class="footer">
   <div class="footer-sec">
-    <!-- <div class="shape-one"><img src="https://iswipetech.com/assets/images/shape/circle-slice.webp" alt="shape" width="233" height="577"></div>
-    <div class="shape-two opacity-20"><img src="https://iswipetech.com/assets/images/shape/cloud.svg" alt="shape" class="svgimg" width="250" height="250"></div> -->
+    <!-- <div class="shape-one"><img src="https://techwize.com/assets/images/shape/circle-slice.webp" alt="shape" width="233" height="577"></div>
+    <div class="shape-two opacity-20"><img src="https://techwize.com/assets/images/shape/cloud.svg" alt="shape" class="svgimg" width="250" height="250"></div> -->
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -883,7 +883,7 @@ $(document).ready(function () {
     		          // Add your logic to submit to your backend server here.
     		          document.getElementById('captcha').value=token;
         		          $.ajax({
-                            url: "https://iswipetech.com/contact_us_submit",
+                            url: "https://techwize.com/contact_us_submit",
                             type: "POST",
                             data: $('#contactUs').serialize(),
                             dataType: "json",
@@ -911,7 +911,7 @@ $(document).ready(function () {
                                     $('#contactUs')[0].reset();
                                     $("#alertMessageSuccess").html('<div class="alert alert-success">' + data.message + '</div>');
                                     setTimeout(function () {
-                                      //  window.location.href = "https://iswipetech.com/thank-you";
+                                      //  window.location.href = "https://techwize.com/thank-you";
                                         $('#alertMessageSuccess').html('');
                                         $(".myAlert-top").hide();
                                     }, 200);
